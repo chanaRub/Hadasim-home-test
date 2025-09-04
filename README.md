@@ -25,6 +25,7 @@ Client-server system for managing orders and suppliers.
 Python 3.10+, Node.js + npm, pandas, SQLAlchemy, Flask, requests.
 
 
-## Author: Chani Kahana
+## Author:
+Chana Rub
 
 
