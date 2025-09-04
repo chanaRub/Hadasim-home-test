@@ -1,0 +1,51 @@
+/* Sidebar */
+.sidebar {
+    width: 250px; /* רוחב ה-sidebar */
+    background-color: #ffffff; /* צבע רקע של ה-sidebar */
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* צללה למראה */
+    border-right: 1px solid #e2e8f0; /* גבול ימין */
+    padding: 20px;
+    position: fixed; /* מיקם את ה-sidebar בצד */
+    height: 100%; /* תפס את כל הגובה */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* וודא שה-sidebar מעל כל דבר אחר */
+  }
+  
+  /* כותרת ה-sidebar */
+  .sidebar h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f59e0b;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* קישורים בתוך ה-sidebar */
+  .sidebar nav a {
+    display: block;
+    color: #4a4a4a;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar nav a:hover {
+    color: #f59e0b;
+    text-decoration: underline;
+  }
+  
+  .sidebar nav a.active {
+    color: #f59e0b;
+    font-weight: bold;
+  }
+  
+  /* קונטיינר שמחזיק את התוכן */
+  .content {
+    margin-left: 250px; /* השאר מקום ל-sidebar */
+    padding: 20px;
+    min-height: 100vh; /* וודא שהתוכן תופס את כל הגובה */
+    background-color: #fef9c3;
+  }
+  

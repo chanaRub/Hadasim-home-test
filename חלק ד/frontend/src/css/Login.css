@@ -1,0 +1,88 @@
+/* עיצוב כללי לדף */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #E0F7FA, #B3E5FC); /* צבע גרדיינט בגווני תכלת */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* עיצוב לתוך הקונטיינר של הטופס */
+  .login-container {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #B3E5FC; /* גבול בצבע תכלת */
+  }
+  
+  /* כותרת */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #03A9F4; /* צבע תכלת כהה */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* עיצוב של שדות הקלט */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #03A9F4; /* צבע גבול כשיש פוקוס */
+  }
+  
+  /* כפתור התחברות */
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #03A9F4; /* צבע תכלת */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0288D1; /* צבע כפתור בשעת ריחוף */
+  }
+  
+  /* שגיאה - תצוגת הודעות שגיאה */
+  .error-message {
+    background-color: #FFEBEE;
+    color: #D32F2F;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  /* כפתור קישור להרשמה */
+  .register-link {
+    font-size: 16px;
+    color: #0288D1;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 12px; /* רווח בין כפתור ההתחברות לכפתור הרשמה */
+  }
+  
+  .register-link:hover {
+    color: #01579B;
+  }
+  
